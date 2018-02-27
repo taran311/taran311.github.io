@@ -1,0 +1,190 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+	<script type="text/JavaScript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>	
+	<script type="text/JavaScript" src="js/jquery-ui.min.js"></script>
+	<style>
+		.card-body, img{
+			width: 100%;
+		}
+		.container{
+			padding: 1%;
+			width:80%;
+		}
+		.card:hover{
+			background-color: #E95420;
+			color: #ffffff;
+		}
+	</style>
+	<title> Vegthetics! </title>
+</head>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="index.html">Vegthetics</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="fatloss.html">Fatloss</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="exercise.html">Exercise</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="diet.html">Diet</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="training.html">Training</a>
+      </li>
+    </ul>
+  </div>
+</nav>		
+	<div class="container">	
+		<div class="ui-widget">
+			<br />
+			  <label for="tags">Type an Exercise: </label>
+			  <input id="tags"> 
+		</div>
+		<div class ="Exercises">
+			<div class = "Video" id="DefaultLayout">
+				<p><font color="gray" size="2"> E.g. "Deadlifts", "Squats", "Curls", "PullUps"... </font></p>
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br /> <br /> <br /> <br /> <br /> <br />
+			</div>
+			<div class = "Video" id="SquatsDiv" style="display:none">
+				<h3> Squats </h3>
+				The Barbell Squat targets the main muscle group Quadriceps.<br />
+				but also targets the Hamstrings, Glutes and Calves <br />
+				<video class = "Vid" width="320" height="240" controls preload="none">
+				  <source src="videos/Squats.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br /> 
+			</div>
+			<div class = "Video" id="DeadliftsDiv" style="display:none">
+				<h3> Deadlifts </h3>
+				The Barbell Deadlift targets the main muscle group Lower Back.<br />
+				But also targets the Calves, Forearms, Glutes, Hamstrings, Lats,<br />
+				Middle back, Quadriceps and Traps. <br />
+				<video class = "Vid" width="320" height="240" controls preload="none">
+				  <source src="videos/Deadlifts.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br />
+			</div>
+			<div class = "Video" id="PullUpsDiv" style="display:none">
+				<h3> PullUps </h3>
+				The PullUp targets the main muscle group Lats.<br />
+				But also targets Biceps and Middle Back <br />
+				<video class = "Vid" width="320" height="240" controls preload="none">
+				  <source src="videos/PullUps.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>	
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br />
+			</div>
+			<div class = "Video" id="FrontSquatsDiv" style="display:none">
+				<h3> Front Squats </h3>
+				The Front Squat targets the main muscle group Quadriceps.<br />
+				But also targets Hamstrings, Glutes and Calves <br />
+				<video class = "Vid" width="320" height="240" controls preload="none">
+				  <source src="videos/FrontSquats.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>	
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br />
+			</div>
+			<div class = "Video" id="BarbellCurlsDiv" style="display:none">
+				<h3> Barbell Curls </h3>
+				The Barbell Curl targets the main muscle group Bicep.<br />
+				But also targets ForeArms <br />
+				<video class = "Vid" width="320" height="240" controls preload="none">
+				  <source src="videos/BarbellCurls.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>	
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br />
+			</div>
+			<div class = "Video" id="HammerCurlsDiv" style="display:none">
+				<h3> Hammer Curls </h3>
+				The Hammer Curl targets the main muscle group Bicep.<br />
+				<video class = "Vid" width="320" height="240" controls preload="none">
+				  <source src="videos/HammerCurls.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>	
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br />
+			</div>
+			<div class = "Video" id="BicepCurlsDiv" style="display:none">
+				<h3> Bicep Curls </h3>
+				The Bicep Curl targets the main muscle group Bicep.<br />
+				But also targets ForeArms <br />
+				<video class = "Vid" width="320" height="240" controls preload="none">
+				  <source src="videos/BicepCurls.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>	
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br />
+			</div>
+			<div class = "Video" id="LateralRaisesDiv" style="display:none">
+				<h3> Lateral Raises </h3>
+				The Lateral Raise targets the main muscle group Side Delts.<br />
+				But also targets the Laterals.<br />
+				<video class = "Vid" width="320" height="240" controls preload="none">
+				  <source src="videos/LateralRaises.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>	
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+				<br /> <br />
+			</div>	
+		</div>
+		<script>
+		  $(function() {
+		
+			var availableTags = [
+			  "Barbell Curls",
+			  "Bicep Curls",
+			  "Deadlifts",
+			  "Hammer Curls",
+			  "Front Squats",
+			  "Lateral Raises",
+			  "PullUps",
+			  "Squats"
+			];
+			
+			$("#tags").autocomplete({
+			  source: availableTags
+			});
+			 
+			$("#tags").autocomplete({
+			  select: function(event, ui) {
+				var selectedInput = ui.item.value.replace(/\s/g, '');;
+				$(".Video").hide();
+				$("#" + selectedInput + "Div").show();
+			  } 
+			});
+		  });
+	   </script>
+	</div>	
+</body>
+</html>
