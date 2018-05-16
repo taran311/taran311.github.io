@@ -1,0 +1,28 @@
+.meatfree{
+    background-color: #E95420;	
+    color: #ffffff;			
+}
+
+.proteinv{
+    background-color: #DF382C;	
+    color: #ffffff;			
+}
+
+.carbsv{
+    background-color: #EFB73E;	
+    color: #ffffff;					
+}
+
+.fatv{
+    background-color: #007bff;	
+    color: #ffffff;					
+}
+
+.container{
+    padding: 1%;
+}
+
+.card-images{
+    float: right;  
+    width: 100%  
+}
